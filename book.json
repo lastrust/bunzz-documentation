@@ -1,0 +1,8 @@
+{
+  "plugins": ["advanced-emoji", "uml", "collapsible-chapters"],
+  "pluginsConfig": {
+    "fontsettings": {
+      "theme": "night"
+    }
+  }
+}

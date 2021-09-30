@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="209px" preserveAspectRatio="none" style="width:496px;height:209px;background:#FFFFFF;" version="1.1" viewBox="0 0 496 209" width="496px" zoomAndPan="magnify"><defs><filter height="300%" id="f1mm1v8znkx567" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[6be6168b6d2c053508892e3f05d497a7]
+entity Builder--><ellipse cx="98" cy="14" fill="#FEFECE" filter="url(#f1mm1v8znkx567)" rx="8" ry="8" style="stroke:#A80036;stroke-width:1.5;"/><path d="M98,22 L98,49 M85,30 L111,30 M98,49 L85,64 M98,49 L111,64 " fill="none" filter="url(#f1mm1v8znkx567)" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="48" x="74" y="83.0352">Builder</text><!--MD5=[8e2c1cdec7952a98479efb9c1bd676f1]
+entity Entrant--><ellipse cx="400" cy="14" fill="#FEFECE" filter="url(#f1mm1v8znkx567)" rx="8" ry="8" style="stroke:#A80036;stroke-width:1.5;"/><path d="M400,22 L400,49 M387,30 L413,30 M400,49 L387,64 M400,49 L413,64 " fill="none" filter="url(#f1mm1v8znkx567)" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="50" x="375" y="83.0352">Entrant</text><ellipse cx="73.2483" cy="179.8497" fill="#FEFECE" filter="url(#f1mm1v8znkx567)" rx="67.2483" ry="15.8497" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="86" x="27.2483" y="183.8672">Create Event</text><ellipse cx="250.1072" cy="44.9214" fill="#FEFECE" filter="url(#f1mm1v8znkx567)" rx="67.6072" ry="15.9214" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="87" x="203.6072" y="48.939">Attend Event</text><ellipse cx="422.1108" cy="179.8222" fill="#FEFECE" filter="url(#f1mm1v8znkx567)" rx="62.1108" ry="14.8222" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="71" x="383.6108" y="183.8397">Find Event</text><ellipse cx="250.0639" cy="179.8128" fill="#FEFECE" filter="url(#f1mm1v8znkx567)" rx="74.5639" ry="17.3128" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="105" x="197.5639" y="183.1038">Create Member</text><!--MD5=[c8e253e6ecdaafd027c3a5040914f3a0]
+link Builder to Create Event--><path d="M90.57,85.54 C86.04,109.62 80.45,139.37 76.81,158.75 " fill="none" id="Builder-to-Create Event" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="75.83,163.93,81.4087,155.8135,76.7445,159.0143,73.5437,154.3502,75.83,163.93" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[bf5b78550794cc5979af22111380b41d]
+link Builder to Attend Event--><path d="M122.05,45 C140.32,45 158.6,45 176.87,45 " fill="none" id="Builder-to-Attend Event" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="182.02,45,173.02,41,177.02,45,173.02,49,182.02,45" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[c4fffc06f3684541b525511740293899]
+link Entrant to Find Event--><path d="M406.54,85.54 C410.59,110.04 415.62,140.41 418.82,159.75 " fill="none" id="Entrant-to-Find Event" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="419.67,164.9,422.1494,155.3683,418.855,159.9669,414.2564,156.6724,419.67,164.9" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[26b71c8b16c14b2d032a5ef3549e3355]
+reverse link Attend Event to Entrant--><path d="M323.04,45 C340.33,45 357.63,45 374.92,45 " fill="none" id="Attend Event-backto-Entrant" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="317.68,45,326.68,49,322.68,45,326.68,41,317.68,45" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[9361455c39d3b1c01a492c586fff004d]
+reverse link Attend Event to Create Member--><path d="M250,66.57 C250,92.88 250,137.94 250,162.26 " fill="none" id="Attend Event-backto-Create Member" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="250,61.26,246,70.26,250,66.26,254,70.26,250,61.26" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="60" x="251" y="129.0684">«include»</text><!--MD5=[b702f706de06a2ddbebc0acc6e8f9248]
+@startuml
+actor Builder
+actor Entrant
+
+Builder - -> (Create Event)
+Builder -> (Attend Event)
+
+Entrant - -> (Find Event)
+(Attend Event) <- Entrant
+
+(Attend Event) <.. (Create Member)  : <<include>>
+
+@enduml
+
+PlantUML version 1.2021.9(Sun Jul 25 19:13:56 JST 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: ja
+Country: JP
+--></g></svg>

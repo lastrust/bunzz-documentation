@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="106px" preserveAspectRatio="none" style="width:277px;height:106px;background:#FFFFFF;" version="1.1" viewBox="0 0 277 106" width="277px" zoomAndPan="magnify"><defs/><g><!--MD5=[d4ab42d3dbcf0014defd4e29ec91a2d5]
+cluster Bunzz Console--><rect fill="#FFFFFF" height="89" style="stroke:#000000;stroke-width:1.5;" width="198" x="73" y="7"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="106" x="119" y="22.5352">Bunzz Console</text><ellipse cx="171.9462" cy="60.9892" fill="#F8F8F8" rx="82.9462" ry="18.9892" style="stroke:#383838;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="125" x="109.4462" y="64.2803">Generate modules</text><!--MD5=[6be6168b6d2c053508892e3f05d497a7]
+entity Builder--><ellipse cx="30" cy="31.5" fill="#F8F8F8" rx="8" ry="8" style="stroke:#383838;stroke-width:1.5;"/><path d="M30,39.5 L30,66.5 M17,47.5 L43,47.5 M30,66.5 L17,81.5 M30,66.5 L43,81.5 " fill="none" style="stroke:#383838;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="48" x="6" y="97.5352">Builder</text><!--MD5=[6854b086507cc13484b5a30e54e69b09]
+link Builder to GM--><path d="M54.13,61 C63.93,61 73.73,61 83.54,61 " fill="none" id="Builder-to-GM" style="stroke:#383838;stroke-width:1.0;"/><polygon fill="#383838" points="88.66,61,79.66,57,83.66,61,79.66,65,88.66,61" style="stroke:#383838;stroke-width:1.0;"/><!--MD5=[927a2840655bc85d9f2da73660c7cc81]
+@startuml
+skinparam componentStyle rectangle
+skinparam monochrome true
+skinparam defaultBackgroundColor White
+skinparam shadowing false
+
+actor Builder
+
+component "Bunzz Console" {
+  (Generate modules) as GM
+}
+Builder -> GM
+@enduml
+
+PlantUML version 1.2021.9(Sun Jul 25 19:13:56 JST 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: ja
+Country: JP
+--></g></svg>
